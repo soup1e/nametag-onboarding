@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: lightgray;
 }
 
 header {
@@ -28,8 +29,27 @@ footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+#hello {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+
+#my-name-is {
+    text-align: center;
+    color: purple;
+    background-color: grey;
+}
+
+#name-display {
+    text-align: center;
+    background-color: lightblue;
 }
