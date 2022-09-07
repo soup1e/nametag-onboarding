@@ -33,4 +33,23 @@ footer {
     justify-content: flex-end;
     background-color: var(--footer-background);
 }
+
+#hello {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+    background-color: lightblue;
+}
+
+#my-name-is {
+    text-align: center;
+    color: purple;
+    background-color: grey;
+}
+
+#name-display {
+    text-align: center;
+    background-color: lightblue;
+}
+
 /*Doing CSS after everything is working*/
