@@ -10,6 +10,7 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-color: lightgray;
 }
 
 header {
@@ -39,6 +40,7 @@ footer {
     text-align: center;
     color: red;
     background-color: lightblue;
+    box-sizing: border-box;
 }
 
 #my-name-is {
