@@ -16,4 +16,5 @@ changeButton.addEventListener('click', () => {
     const name = nameInput.value;
     nameDisplay.textContent = name;
     nameInput.value = '';
+    console.log(name);
 });
