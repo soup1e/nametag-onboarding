@@ -8,7 +8,6 @@
 // update DOM to reflect the new state
 
 const nameInput = document.getElementById('name-input');
-console.log(nameInput);
 const changeButton = document.getElementById('change-name');
 const nameDisplay = document.getElementById('name-display');
 
@@ -16,5 +15,4 @@ changeButton.addEventListener('click', () => {
     const name = nameInput.value;
     nameDisplay.textContent = name;
     nameInput.value = '';
-    console.log(name);
 });
