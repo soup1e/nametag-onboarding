@@ -13,15 +13,24 @@
         />
         <link rel="stylesheet" href="/styles/reset.css" />
         <link rel="stylesheet" href="/styles/global.css" />
-        <title>Web App</title>
+        <title>Name Tag</title>
     </head>
+
     <body>
         <header>
             <img src="/assets/html_css_js.png" />
-            <h1>Web App</h1>
+            <h1>Name tag</h1>
         </header>
-        <main></main>
-        <footer>&copy;2022 Software Developer</footer>
-        <script type="module" src="app.js"></script>
+
+        <main>
+            <div class="container">
+                <h1>Hello my name is...</h1>
+                <div id="name-display"></div>
+                <div id="bottom"></div>
+            </div>
+
+            <input type="text" name="name" id="name-input" />
+            <button id="change-name">Submit</button>
+        </main>
     </body>
 </html>
